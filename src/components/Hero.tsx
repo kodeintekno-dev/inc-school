@@ -1,22 +1,21 @@
-// src/components/Hero.tsx
 "use client";
 
 export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative bg-cover bg-center h-screen flex items-center"
+      className="relative bg-cover bg-center h-screen flex items-end" // Align at bottom
       style={{ backgroundImage: "url('/hero-bg.png')" }}
     >
-      <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-24 text-white flex flex-col justify-center h-full w-full">
+      <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-24 text-white flex flex-col justify-end h-full w-full pb-16">
         {/* Horizontal line above header and description */}
         <hr className="border-t border-white w-full mb-6" />
 
         <div className="flex flex-col md:flex-row md:items-center md:space-x-8">
           {/* Header */}
-          <h1 className="font-header font-extrabold text-yellow-400 text-2xl sm:text-5xl md:text-6xl  md:max-w-sm">
-            Ma&apos;had Daar AL-Shuffah Cilembu
-          </h1>
+          <h1 className="font-header font-extrabold text-yellow-400 text-2xl sm:text-5xl md:text-6xl md:max-w-md">
+  Ma&apos;had Daar AL-Shuffah Cilembu
+</h1>
 
           {/* Description */}
           <p className="mt-4 md:mt-0 text-white max-w-md text-base sm:text-lg md:text-xl leading-relaxed">

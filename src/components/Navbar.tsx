@@ -111,7 +111,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-black bg-opacity-90" id="mobile-menu">
+        <div className="md:hidden mx-5 bg-[#572C2D] bg-opacity-50 rounded-xl mt-6" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center">
             <a
               href="#beranda"
@@ -150,7 +150,7 @@ export default function Navbar() {
             </a>
             <a
               href="#daftar"
-              className="block border border-white rounded px-4 py-1 text-white font-semibold mx-auto w-max hover:bg-white hover:text-black transition"
+              className="block border border-white rounded px-10 py-2 text-white font-semibold mx-auto w-max hover:bg-white hover:text-black transition"
               onClick={() => setIsOpen(false)}
             >
               Daftar
