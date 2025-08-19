@@ -3,6 +3,8 @@ import Hero from '@/components/Hero';
 import Facility from '@/components/Facility';
 import Footer from '@/components/Footer';
 import { About } from '@/components/About';
+import Program from '@/components/Program';
+import Activity from '@/components/Activity';
 
 export default function HomePage() {
   return (
@@ -15,6 +17,8 @@ export default function HomePage() {
       <main>
         <Hero />
         <Facility />
+        <Program />
+        <Activity />
         <Footer />
       </main>
         {/* About Section */}
