@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import Facility from '@/components/Facility';
 import Footer from '@/components/Footer';
+import { About } from '@/components/About';
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
         <Facility />
         <Footer />
       </main>
-    </>
-  );
-}
+        {/* About Section */}
+        <About />
+      </>
+  )}
