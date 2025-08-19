@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
+import { About } from '@/components/About';
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <main>
         <Hero />
       </main>
-    </>
-  );
-}
+        {/* About Section */}
+        <About />
+      </>
+  )}
