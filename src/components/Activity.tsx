@@ -189,7 +189,7 @@ export default function AktivitasKami() {
           </h2>
 
           <p className="mt-3 md:mt-1 md:max-w-xl text-sm md:text-base text-white/90">
-            Ma’had Daar Al-Shuffah Cilembu menyelenggarakan beragam program
+            Ma&apos;had Daar Al-Shuffah Cilembu menyelenggarakan beragam program
             pembelajaran dan pembinaan yang dirancang untuk meningkatkan pemahaman
             dan kedisiplinan santri.
           </p>

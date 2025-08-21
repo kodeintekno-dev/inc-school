@@ -56,7 +56,7 @@ export default function Program() {
             Program <br /> Kami
           </h2>
           <p className="mt-2 text-sm md:text-base max-w-xl">
-            Ma’had Daar Al-Shuffah Cilembu menyelenggarakan beragam program
+            Ma&apos;had Daar Al-Shuffah Cilembu menyelenggarakan beragam program
             pembelajaran dan pembinaan yang dirancang untuk meningkatkan
             pemahaman dan kedisiplinan santri.
           </p>

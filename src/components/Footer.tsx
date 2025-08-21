@@ -30,7 +30,7 @@ export default function Footer() {
             height={450} />
               <div>
                 <h3 className="text-yellow-300 font-semibold text-lg">
-                  Ma'had Daar AL-Shuffah Cilembu
+                  Ma&apos;had Daar AL-Shuffah Cilembu
                 </h3>
               </div>
             </div>
@@ -83,7 +83,7 @@ export default function Footer() {
             </div>
 
             <div className="mt-6 md:mt-0">
-              <p className="text-gray-400 text-xs">&copy; {new Date().getFullYear()} Ma'had Daar AL-Shuffah Cilembu. All rights reserved.</p>
+              <p className="text-gray-400 text-xs">&copy; {new Date().getFullYear()} Ma&apos;had Daar AL-Shuffah Cilembu. All rights reserved.</p>
             </div>
           </div>
         </div>
