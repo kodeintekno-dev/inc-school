@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export const About = () => {
@@ -11,7 +12,7 @@ export const About = () => {
                 <div className='w-fit h-10 p-5 mt-5 border-white border-2 flex items-center justify-center text-white hover:bg-white hover:text-black transition'><p>Selengkapnya 👉</p></div>
             </div>
             <div>
-                <img
+                <Image
                     src="/about-image.jpg"
                     alt="Example"
                     width={500}

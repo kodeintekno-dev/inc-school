@@ -99,6 +99,8 @@ function ArrowSquare({
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
                     className="object-cover"
+                    width={800}
+            height={450}
                 />
                 </div>
 

@@ -1,6 +1,7 @@
 // src/components/Footer.tsx
 "use client";
 
+import Image from "next/image";
 import { useState, useEffect } from "react";
 
 export default function Footer() {
@@ -25,7 +26,8 @@ export default function Footer() {
           {/* Left: Logo + Contact */}
           <div className="space-y-4">
             <div className="flex items-center gap-4">
-              <img src="/logo_cilembu.svg" alt="Logo" className="h-14 w-auto" />
+              <Image src="/logo_cilembu.svg" alt="Logo" className="h-14 w-auto" width={800}
+            height={450} />
               <div>
                 <h3 className="text-yellow-300 font-semibold text-lg">
                   Ma'had Daar AL-Shuffah Cilembu

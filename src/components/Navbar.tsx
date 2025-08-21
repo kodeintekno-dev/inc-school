@@ -1,6 +1,7 @@
 // src/components/Navbar.tsx
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -12,10 +13,12 @@ export default function Navbar() {
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <img
+            <Image
               className="h-15  w-auto"
               src="./logo_cilembu.svg"
               alt="Logo"
+              width={800}
+            height={450}
             />
           </div>
 
